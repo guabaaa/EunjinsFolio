@@ -54,23 +54,6 @@ export const skills = {
     view: true
 };
 
-export const experience = {
-    title: "Work Experience",
-    lists: [
-        {
-            date: "2018.03~",
-            company: "Google",
-            role: "Front-End Developer",
-        },
-        {
-            date: "test",
-            company: "test",
-            role: "test",
-        }
-    ],
-    view: false
-}
-
 export const openSourceProjects = {
     title: emoji("Open Source Projects 💻"),
     view: true
@@ -140,102 +123,6 @@ export const projects = {
             desc: "식탁에 화분을 배치하고 모바일 앱과 연결하여 식물을 관리할 수 있음",
             url: "https://drive.google.com/file/d/1Ntazu76RiS_rsxxMmfg8OEC_QNldqgOA/view?usp=sharing"
         }
-    ],
-    view: true
-}
-
-export const achievements = {
-    title: emoji("Achievements 🏆"),
-    subTitle: "",
-    lists: [
-        {
-            img: require("./assets/191126_공학페스티벌_장려상.jpg"),
-            alt: "",
-            title: "창의적 종합설계 경진대회 장려상",
-            desc: "수상일자: 2019.11.26. / 수여기관: 서울과기대 공학교육거점센터"
-        },
-        {
-            img: require("./assets/190926_캡스톤경진대회_대상.jpg"),
-            alt: "",
-            title: "제11회 캡스톤디자인경진대회 대상",
-            desc: "수상일자: 2019.09.26./수여기관: 건양대학교"
-        },
-        {
-            img: require("./assets/191022_WTA대전하이테크페어_우수상.jpg"),
-            alt: "",
-            title: "제16회 WTA 대전 하이테크 페어 아이디어 공모전 우수상",
-            desc: "수상일자: 2019.10.22. / 수여기관: (재)대전테크노파크"
-        },
-        {
-            img: require("./assets/190413_배재대창업캠프_은상.jpg"),
-            alt: "",
-            title: "아이디어 발굴창업캠프 은상",
-            desc: "수상일자: 2019.04.13./수여기관: 배재대학교 창업교육센터"
-        },
-        {
-            img: require("./assets/191025_학부생논문경진대회_우수상.jpg"),
-            alt: "",
-            title: "추계학술대회 학부생 논문경진대회 우수논문상",
-            desc: "수상일자: 2019.10.25. / 수여기관: 한국지식정보기술학회"
-        },
-        {
-            img: require("./assets/200706_설계교과목경진대회_최우수상.jpg"),
-            alt: "",
-            title: "설계교과목 경진대회 최우수상",
-            desc: "수상일자: 2020.07.06./수여기관: 건양대학교 공학교육혁신센터"
-        },
-        {
-            img: require("./assets/190621_설계교과목경진대회_최우수상.png"),
-            alt: "",
-            title: "설계교과목 경진대회 최우수상",
-            desc: "수상일자: 2019.06.21./수여기관: 건양대학교 공학교육거점센터"
-        },
-        {
-            img: require("./assets/200928_셀프뷰면접경진대회_최우수상.jpg"),
-            alt: "",
-            title: "셀프뷰 면접 경진대회 최우수상",
-            desc: "수상일자: 2020.09.28./수여기관: 건양대학교"
-        },
-        {
-            img: require("./assets/151204_기업LINC영상분석공모전_장려상.png"),
-            alt: "",
-            title: "기업 LINC 영상분석 공모전 장려상",
-            desc: "수상일자: 2015.12.04./수여기관: 건양대학교 LINC 사업단"
-        },
-        {
-            img: require("./assets/190524_ICT융합프로젝트공모전_참가상.jpg"),
-            alt: "",
-            title: "ICT 융합 프로젝트 공모전 참가상",
-            desc: "수상일자: 2019.05.24. / 수여기관: (주)엔테텍스"
-        },
-    ],
-    view: true
-};
-
-export const blogs = {
-    title: emoji("Certifications 📰"),
-    subTitle: "",
-    lists: [
-        {
-            title: "정보처리기사",
-            desc: "취득일: 2020.08.28. / 발행처: 한국산업인력공단",
-            url: "https://drive.google.com/file/d/1Zf4O48mzJUcoVSOTUrhnCx_YQFnKV7AN/view?usp=sharing"
-        },
-        {
-            title: "Microsoft Office Specialist Master",
-            desc: "취득일: 2018.01.31. / 발행처: Microsoft",
-            url: "https://drive.google.com/file/d/1qAr9fn5Ri5V3ArigI_ClpGHhcKp5wpQz/view?usp=sharing"
-        },
-        {
-            title: "Certified SOLIDWORKS Associate",
-            desc: "취득일: 2019.07.12. / 발행처: Solidworks",
-            url: "https://drive.google.com/file/d/1RPGtvR4HRG4rk1oDGCsgyDT8Kie4atKl/view?usp=sharing"
-        },
-        {
-            title: "한국사능력검정 1급",
-            desc: "취득일: 2020.08.21./발행처: 국사편찬위원회",
-            url: "https://drive.google.com/file/d/1g6I7J-dh5xTqXWfuPoKPFr7bz3fKBj54/view?usp=sharing"
-        },
     ],
     view: true
 }
