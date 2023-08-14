@@ -1,21 +1,17 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-    username: 'Cho-eunjin',
-    title: '반갑습니다 프론트엔드 개발자 조은진입니다.',
-    subTitle: emoji("계속해서 공부하고 발전하는 개발자 조은진입니다."),
-    role: "프론트엔드 개발(Front-end)",
-    resumeLink: "https://drive.google.com/file/d/1NE0J3Q5vC2UjkySUYgKsvQhd5cfcjd8U/view?usp=sharing",
-    // IMPORTANT
-    // If you don't want to show this, change view to false. DO NOT DELETE!
+    username: 'Cho_Eun Jin',
+    title: 'Hello World?',
+    subTitle: emoji("발전하는 개발자 조은진입니다."),
+    role: "프론트엔드 개발자(Front-end Developer)",
+    resumeLink: "https://www.notion.so/6ba6982eaac544b1b12ecd09a2b14ac3?pvs=4",
     view: true
 };
 
 export const socialMediaLinks = {
-    // IMPORTANT
-    // if you don't have, change value to blank or false!! DO NOT DELETE!
     github: 'https://github.com/guabaaa',
-    linkedin: '',
+    linkedin:'',
     email: 'gdandtop950923@gmail.com',
     facebook: '',
     twitter: "",
@@ -25,34 +21,49 @@ export const socialMediaLinks = {
 };
 
 export const skills = {
-    title: emoji("I Can Do ⚡"),
+    title: emoji("I Can Do ! ⚡"),
     subTitle: "",
     describeSkills: [
         emoji("★ 50% : 기본적인 이해 완료, 남이 작성한 프로그램을 해석 가능"),
         emoji("★ 70% : 활용 가능, 기존 프로그램을 개선할 수 있음"),
         emoji("★ 90% : 원하는 기능의 프로그램을 개발할 수 있음"),
-        emoji("✔ DBMS : MariaDB, Oracle"),
-        emoji("✔ Deep Learning : Tensorflow, Keras, Torch"),
     ],
     // IMPORTANT
     // You need to find className for font-awesome icon
     // Go to https://fontawesome.com/ and search icon
     lists: [
-        {fontAwesome: "fab fa-windows", text: "C#", proficiency: 90},
-        {fontAwesome: "fab fa-python", text: "PYTHON", proficiency: 90},
-        {fontAwesome: "fab fa-java", text: "JAVA", proficiency: 70},
-        {fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 70},
-        {fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
+        {fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 90},
+        {fontAwesome: "fab fa-css3-alt", text: "CSS", proficiency: 90},
         {fontAwesome: "fab fa-js", text: "JS", proficiency: 70},
-        {fontAwesome: "fas fa-code", text: "C/C++", proficiency: 50},
-        {fontAwesome: "fab fa-ubuntu", text: "UBUNTU", proficiency: 90},
-        {fontAwesome: "fab fa-android", text: "ANDROID", proficiency: 70},
-        {fontAwesome: "fab fa-aws", text: "AWS", proficiency: 70},
-        {fontAwesome: "fas fa-database", text: "DBMS", proficiency: 90},
-        {fontAwesome: "fas fa-brain", text: "AI", proficiency: 70},
+        // {fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 70},
+        // {fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
+        {fontAwesome: "fas fa-react", text: "React", proficiency: 70},
+        {fontAwesome: "fab fa-ts", text: "TS", proficiency: 60},
+        {fontAwesome: "fab fa-github", text: "Github", proficiency: 70},
+        {fontAwesome: "fab fa-docker", text: "Docker", proficiency: 50},
+        {fontAwesome: "fas fa-chart", text: "chart.js", proficiency: 70},
+        {fontAwesome: "fab fa-echart", text: "echarts", proficiency: 70},
+        {fontAwesome: "fas fa-java", text: "Java", proficiency: 50},
     ],
     view: true
 };
+
+export const experience = {
+    title: "Work Experience",
+    lists: [
+        {
+            date: "2018.03~",
+            company: "Google",
+            role: "Front-End Developer",
+        },
+        {
+            date: "test",
+            company: "test",
+            role: "test",
+        }
+    ],
+    view: false
+}
 
 export const openSourceProjects = {
     title: emoji("Open Source Projects 💻"),
@@ -126,6 +137,7 @@ export const projects = {
     ],
     view: true
 }
+
 
 export const contactInfo = {
     title: "Contact To Me! 📞",
