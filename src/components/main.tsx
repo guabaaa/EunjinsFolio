@@ -8,6 +8,7 @@ import Contact from './Contact/Contact';
 import Experience from './Experience/Experience';
 import Project from './Project/Project';
 import { greeting, skills, experience, openSourceProjects, projects, contactInfo } from '../portfolio';
+import About from "./About/about";
 
 function Main() {
     return (
@@ -15,7 +16,6 @@ function Main() {
             <Header />
             {greeting.view && <Hello />}
             {skills.view && <Skill />}
-            {experience.view && <Experience />}
             {openSourceProjects.view && <OpenSource />}
             {projects.view && <Project />}
             {contactInfo.view && <Contact />}

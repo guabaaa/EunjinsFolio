@@ -12,9 +12,8 @@ function OpenSource() {
     }, []);
 
     function getRepoData(): void {
-        // I don't know well about this part...
         const client = new ApolloClient({
-            uri: "https://api.github.com/graphql",
+            uri: "https://api.github.com/guabaaa",
             request: (operation) => {
                 operation.setContext({
                     headers: {
@@ -28,7 +27,7 @@ function OpenSource() {
             .query({
                 query: gql`
                 {
-                user(login: "wnsgur1198") {
+                user(login: "guabaaa") {
                     pinnedItems(first: 6, types: [REPOSITORY]) {
                         totalCount
                         edges {
@@ -74,7 +73,7 @@ function OpenSource() {
                     return <GithubCard repos={repo} key={i} />;
                 })}
             </div>
-            <a href="https://github.com/wnsgur1198" target="_blank" rel="noopener noreferrer">More Projects</a>
+            <a href="https://github.com/guabaaa" target="_blank" rel="noopener noreferrer">More Projects</a>
         </div>
     );
 }
