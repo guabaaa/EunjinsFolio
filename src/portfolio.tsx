@@ -52,17 +52,12 @@ export const experience = {
     title: "Work Experience",
     lists: [
         {
-            date: "2018.03~",
-            company: "Google",
+            date: "2023.03~",
+            company: "클라모스(계약직)",
             role: "Front-End Developer",
         },
-        {
-            date: "test",
-            company: "test",
-            role: "test",
-        }
     ],
-    view: false
+    view: true
 }
 
 export const openSourceProjects = {
@@ -74,6 +69,16 @@ export const projects = {
     title: emoji("Projects 💻"),
     subTitle: "",
     lists: [
+        {
+            title: "경기도교육청",
+            desc: "경기도교육청 차트관련 작업페이지. 고도화 및 유지보수 담당",
+            url: ""
+        },
+        {
+            title: "화성시 e 다모아 플랫폼",
+            desc: "지도와 차트를 활용한 화성시 프로젝트 작업. 리액트, 타입스크립트로 개발",
+            url: ""
+        },
         {
             title: "콘마켓",
             desc: "당근마켓을 오마주하여, 게시판 기능과 채팅기능을 활용해 편리하게 유저가 이용할 수 있도록 만든 사이트",
@@ -91,7 +96,7 @@ export const projects = {
 
 export const contactInfo = {
     title: "Contact To Me! 📞",
-    subTitle: "",
+    subTitle: "조은진. 1995년 9월 23일. 010-5788-5287",
     introduce: emoji(""),
     view: true
 }

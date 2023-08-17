@@ -16,6 +16,7 @@ function Main() {
             <Header />
             {greeting.view && <Hello />}
             {skills.view && <Skill />}
+            {experience.view && <Experience />}
             {openSourceProjects.view && <OpenSource />}
             {projects.view && <Project />}
             {contactInfo.view && <Contact />}
