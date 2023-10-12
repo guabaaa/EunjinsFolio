@@ -52,7 +52,7 @@ export const experience = {
     title: "Work Experience",
     lists: [
         {
-            date: "2023.03~",
+            date: "2023.03~2023.09",
             company: "클라모스(계약직)",
             role: "Front-End Developer",
         },
