@@ -89,6 +89,11 @@ export const projects = {
             desc: "기성프로그램인 넷플릭스 웹사이트를 활용하여 만든 웹페이지",
             url: "https://github.com/guabaaa/NetflixClone"
         },
+        {
+            title: "실시간 채팅 프로그램",
+            desc: "실시간으로 채팅을 주고받을 수 있는 페이지 작업",
+            url : "https://github.com/guabaaa/ChattingRoom"
+        }
     ],
     view: true
 }
