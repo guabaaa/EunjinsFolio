@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/EunjinsFolio/static/css/main.977eeb71.css",
-    "main.js": "/EunjinsFolio/static/js/main.7c4c0ce7.js",
+    "main.js": "/EunjinsFolio/static/js/main.e9bd1fa6.js",
     "index.html": "/EunjinsFolio/index.html",
     "main.977eeb71.css.map": "/EunjinsFolio/static/css/main.977eeb71.css.map",
-    "main.7c4c0ce7.js.map": "/EunjinsFolio/static/js/main.7c4c0ce7.js.map"
+    "main.e9bd1fa6.js.map": "/EunjinsFolio/static/js/main.e9bd1fa6.js.map"
   },
   "entrypoints": [
     "static/css/main.977eeb71.css",
-    "static/js/main.7c4c0ce7.js"
+    "static/js/main.e9bd1fa6.js"
   ]
 }
