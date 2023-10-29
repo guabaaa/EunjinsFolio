@@ -90,10 +90,10 @@ export const projects = {
             url: "https://guabaaa.github.io/NetflixClone"
         },
         {
-            title: "실시간 채팅 프로그램",
+            title: "채팅 프로그램(방)",
             desc: "실시간으로 채팅을 주고받을 수 있는 페이지 작업",
             url : "https://github.com/guabaaa/ChattingRoom"
-        }
+        },
     ],
     view: true
 }
