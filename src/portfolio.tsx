@@ -102,6 +102,6 @@ export const projects = {
 export const contactInfo = {
     title: "Contact To Me! 📞",
     subTitle: "조은진. 1995년 9월 23일. 010-5788-5287",
-    introduce: emoji(""),
+    introduce: emoji("happy"),
     view: true
 }
